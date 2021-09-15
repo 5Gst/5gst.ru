@@ -9,6 +9,7 @@ import IconButton from '@material-ui/core/IconButton';
 import { Avatar } from '@mui/material';
 
 const onDownload = () => {
+  window.gtag('event', 'click', 'onDownload');
   const link = document.createElement("a");
   link.download = `speedtest-0.0.1-66-develop.apk`;
   link.href = "./dl/apk/speedtest-0.0.1-66-develop.apk";
