@@ -24,16 +24,15 @@ export default function App() {
           5Gst
         </Typography>
         <IconButton href="https://github.com/SkoltechSummerCamp" target="_blank" rel="noopener noreferrer">
-          <GitHubIcon/>
+          <GitHubIcon fontSize="large"/>
         </IconButton>
       </Toolbar>
         <div align = "center" justify = "center" alignItems = "center">
-          <Typography variant="h5" component="h1" gutterBottom>
+          <Typography variant="h4" component="h1" gutterBottom>
             Opensource<br></br>
             iPerf-based<br></br>
             <b>5G speedtest service</b>
           </Typography>
-
           <Container maxWidth="xs">
             <img
               style={{ width: "100%"}}
@@ -42,11 +41,11 @@ export default function App() {
             />
           </Container>
 
-          <div className="download_button" style={{marginTop: "20px", marginBottom: "20px"}}>
-            <Button variant="contained" color="primary" size="large" onClick={onDownload}>
+          <div className="download_button" style={{marginTop: "10px", marginBottom: "20px"}}>
+            <Button variant="contained" style={{background: 'linear-gradient(135deg, #47F865 40%, #94FFA5 70%)', color: 'black',  padding: '10px 50px'}} size="large" onClick={onDownload}>
               Download Android App
             </Button>
-            <Typography variant="caption" display="block" gutterBottom>
+            <Typography variant="caption" display="block" gutterBottom style={{marginTop: "5px"}}>
               0.0.1.66-develop
             </Typography>
           </div>
