@@ -7,6 +7,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import IconButton from '@material-ui/core/IconButton';
 import DoubleArrowOutlinedIcon from '@material-ui/icons/DoubleArrowOutlined';
+import { Avatar } from '@mui/material';
 
 const onDownload = () => {
   const link = document.createElement("a");
@@ -19,7 +20,7 @@ export default function App() {
   return (
     <Container maxWidth="md">
       <Toolbar>
-        <DoubleArrowOutlinedIcon color="A9BB3F"></DoubleArrowOutlinedIcon>
+        <Avatar variant="rounded" alt="5Gst" src="/static/images/logo.png" />
         <Typography variant="h5" fontWeight="fontWeightBold" style={{marginLeft: "10px"}}>
           5Gst
         </Typography>
