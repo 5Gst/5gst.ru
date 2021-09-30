@@ -17,6 +17,7 @@
     "material-ui-image": "^3.3.2",
     "react": "latest",
     "react-dom": "latest",
+    "react-markdown": "^7.0.1",
     "react-scripts": "latest"
   },
   "browserslist": {
